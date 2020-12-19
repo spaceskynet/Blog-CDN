@@ -3,6 +3,6 @@
 **Usage:**
 
 ```html
-https://cdn.jsdelivr.net/gh/spaceskynet/Blog-CDN/{content}
+https://cdn.jsdelivr.net/gh/spaceskynet/Blog-CDN@main/{content}
 ```
 
