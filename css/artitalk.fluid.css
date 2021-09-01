@@ -69,7 +69,7 @@ div#artitalk_main {
 	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 	display: block;
 }
-#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:nth-child(2) {
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel>div:nth-child(2) {
 	background-color: var(--body-bg-color);
 	padding: 0.8em 1.2em 0.4em 1.2em;
 }
