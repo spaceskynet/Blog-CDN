@@ -70,35 +70,22 @@ div#artitalk_main {
 	display: block;
 }
 #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel>div:nth-child(2) {
-	background-color: var(--body-bg-color);
+	background-color: rgba(249, 250, 251, 1);
 	padding: 2.5rem;
 	border-radius: 10px 10px 0px 0px;
 }
 
-#artitalk_main .cbp_tmlabel: hover {
+#artitalk_main .cbp_tmlabel:hover {
 	/* transform: scale(1.05);*/
 	transform: translateY(-3px);
 	z-index: 1;
 	box-shadow: 0 15px 32px rgba(0,0,0,0.15) ;
 }
-#artitalk_main .cbp_tmtimeline>li: nth-child(odd) .cbp_tmlabel {
-	background: " + color1 + ";
+#artitalk_main .cbp_tmtimeline>li:nth-child(even) .cbp_tmlabel>div.shuoshuo_time {
+	background-image: linear-gradient(to right, #26a69a 0%, #1b82f1 100%);
 }
-/*#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel: after {
-	right: 100%;
-	border: solid transparent;
-	z-index: -1;
-	content: \" \";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-right-color: " + color2 + ";
-	border-width: 10px;
-	top: 4px;
-}*/
-#artitalk_main .cbp_tmtimeline>li: nth-child(odd) .cbp_tmlabel: after {
-	border-right-color: " + color1 + ";
+#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel>div.shuoshuo_time {
+	background-image: linear-gradient(to right, #1b82f1 0%, #5107c7 100%);
 }
 #artitalk_main div.shuoshuo_time {
 	/* margin-top: 10px; */
@@ -109,9 +96,8 @@ div#artitalk_main {
 	border-radius:0px 0px 10px 10px;
 	color: white!important;
     font-weight: 600;
-    background-image: linear-gradient(to right, #26a69a 0%, #1b82f1 100%);
 }
-#artitalk_main div.shuoshuo_time>span .shuoshuo_author_img  img {
+#artitalk_main .shuoshuo_author_img img {
     border: 1px solid #ddd;
     padding: 1px;
     float: left;
@@ -134,7 +120,7 @@ div#artitalk_main {
 	transition: transform 0.4s ease-out;
 	-moz-transition: -moz-transform 0.4s ease-out;
 }
-#artitalk_main .artitalk_avatar: hover {
+#artitalk_main .artitalk_avatar:hover {
 	-webkit-transform: rotateZ(360deg);
 	-moz-transform: rotateZ(360deg);
 	-o-transform: rotateZ(360deg);
@@ -182,7 +168,7 @@ div#artitalk_main {
 	outline: none;
 	cursor: pointer;
 }
-#operare_artitalk .at_button: hover, #artitalk_main .at_button: hover {
+#operare_artitalk .at_button:hover, #artitalk_main .at_button:hover {
 	background-color: " + color2 + ";
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24), 0 8px 16px 0 rgba(0,0,0,0.19);
 }
@@ -338,7 +324,7 @@ div#artitalk_main {
 	transition: all 1s;
 	z-index: 2;
 }
-#artitalk_main .shuoshuoimg: hover {
+#artitalk_main .shuoshuoimg:hover {
 	transform: scale(3.5);
 }
 #artitalk_main .hide, #operare_artitalk .hide {
@@ -421,7 +407,7 @@ div#artitalk_main {
 #artitalk_main #preview>p>.atemoji {
 	display: inline;
 }
-#artitalk_main .shuoshuo_emoji>.atemoji: hover {
+#artitalk_main .shuoshuo_emoji>.atemoji:hover {
 	transform: scale(1.5);
 }
 #artitalk_main div#shuoshuo_emojiswitch {
@@ -439,7 +425,7 @@ div#artitalk_main {
 	text-align: center;
 	line-height: 40px;
 }
-#artitalk_main .shuoshuo_emoji_part: hover {
+#artitalk_main .shuoshuo_emoji_part:hover {
 	background-color: #ccc;
 	color: #fff;
 }
