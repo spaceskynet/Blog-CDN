@@ -14,9 +14,10 @@ div#artitalk_main {
 	/* min-height: 500px;*/
 	
 }
+/*
 #artitalk_main body.theme-dark .cbp_tmtimeline: : before {
 	background: RGBA(255, 255, 255, 0.06);
-}
+}*/
 #artitalk_main ul.cbp_tmtimeline {
 	padding: 0;
 }
@@ -38,6 +39,7 @@ div#artitalk_main {
 	display: block;
 	text-align: right;
 }
+/*
 #artitalk_main .cbp_tmtimeline>li .cbp_tmtime span: first-child {
 	font-size: 0.9em;
 	color: #bdd0db;
@@ -48,7 +50,7 @@ div#artitalk_main {
 }
 #artitalk_main .cbp_tmtimeline>li: nth-child(odd) .cbp_tmtime span: last-child {
 	color: RGBA(255, 125, 73, 0.75);
-}
+}*/
 #artitalk_main div.cbp_tmlabel>p {
 	margin-bottom: 0;
 }
