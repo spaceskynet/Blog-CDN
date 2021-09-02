@@ -100,7 +100,7 @@ div#artitalk_main {
 #artitalk_main .cbp_tmtimeline>li: nth-child(odd) .cbp_tmlabel: after {
 	border-right-color: " + color1 + ";
 }
-#artitalk_main p.shuoshuo_time {
+#artitalk_main div.shuoshuo_time {
 	/* margin-top: 10px; */
 	/* border-top: 1px dashed #fff; */
 	padding-top: 5px;
@@ -111,7 +111,7 @@ div#artitalk_main {
     font-weight: 600;
     background-image: linear-gradient(to right, #26a69a 0%, #1b82f1 100%);
 }
-#artitalk_main p.shuoshuo_time>span .shuoshuo_author_img  img {
+#artitalk_main div.shuoshuo_time>span .shuoshuo_author_img  img {
     border: 1px solid #ddd;
     padding: 1px;
     float: left;
@@ -478,7 +478,7 @@ div#artitalk_main {
 	display: inline;
 	vertical-align: middle;
 }
-#artitalk_main span.cbp_tmlabel>p {
+#artitalk_main span.cbp_tmlabel>div {
 	overflow: hidden;
 }
 #artitalk_main ul#maina>li {
@@ -568,10 +568,10 @@ div#artitalk_main {
 	opacity: 0;
 }
 }
-p.shuoshuo_time>span>a:hover {
+div.shuoshuo_time>span>a:hover {
     color: red;
 }
-p.shuoshuo_time>span>a {
+div.shuoshuo_time>span>a {
     color: blue;
     text-decoration: none;
 }
