@@ -72,7 +72,7 @@ div#artitalk_main {
 	display: block;
 }
 #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel>div:nth-child(2) {
-	background-color: rgba(249, 250, 251, 1);
+	background-color: var(--talking-bg-color);
 	padding: 2.5rem;
 	border-radius: 10px 10px 0px 0px;
 }
@@ -368,10 +368,10 @@ div#artitalk_main {
 }
 #artitalk_main .delete_right {
 	cursor: pointer;
-	width: 12px;
-	height: 12px;
-	position: absolute;
-	right: 12px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 0px;
 }
 #artitalk_main svg {
 	display: inline;
@@ -471,6 +471,7 @@ div#artitalk_main {
 }
 #artitalk_main ul#maina>li {
 	list-style: none;
+    margin: 0rem 5rem 4rem 5rem;
 }
 #artitalk_main div#artitalk_main {
 	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
