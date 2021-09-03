@@ -77,6 +77,11 @@ div#artitalk_main {
 	border-radius: 10px 10px 0px 0px;
 }
 
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel>div:nth-child(2)>svg {
+	fill: currentColor;
+    color: rgba(156, 163, 175, 1);
+}
+
 #artitalk_main .cbp_tmlabel:hover {
 	/* transform: scale(1.05);*/
 	transform: translateY(-3px);
