@@ -12,7 +12,10 @@ div#artitalk_main {
 #artitalk_main #shuoshuo_content {
 	padding: 10px;
 	/* min-height: 500px;*/
-	
+	display: grid;
+}
+#artitalk_main #ccontent {
+	justify-self: center;
 }
 /*
 #artitalk_main body.theme-dark .cbp_tmtimeline: : before {
@@ -476,7 +479,7 @@ div#artitalk_main {
 }
 #artitalk_main ul#maina>li {
 	list-style: none;
-    margin: 0rem 5rem 4rem 5rem;
+    margin-bottom: 4rem;
 }
 #artitalk_main div#artitalk_main {
 	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
