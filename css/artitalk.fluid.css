@@ -67,11 +67,17 @@ div#artitalk_main {
 	z-index: 1;
 	box-shadow: 0 15px 32px rgba(0,0,0,0.15) ;
 }
-#artitalk_main .cbp_tmtimeline>li:nth-child(even) .cbp_tmlabel>div.shuoshuo_time {
+#artitalk_main .cbp_tmtimeline>li:nth-child(4n+1) .cbp_tmlabel>div.shuoshuo_time {
 	background-image: linear-gradient(to right, #26a69a 0%, #1b82f1 100%);
 }
-#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel>div.shuoshuo_time {
+#artitalk_main .cbp_tmtimeline>li:nth-child(4n+2) .cbp_tmlabel>div.shuoshuo_time {
 	background-image: linear-gradient(to right, #1b82f1 0%, #5107c7 100%);
+}
+#artitalk_main .cbp_tmtimeline>li:nth-child(4n+3) .cbp_tmlabel>div.shuoshuo_time {
+	background-image: linear-gradient(to right, #f87171 0%, #a2145f 100%);
+}
+#artitalk_main .cbp_tmtimeline>li:nth-child(4n) .cbp_tmlabel>div.shuoshuo_time {
+	background-image: linear-gradient(to right, #f59e0b 0%, #d05209 100%);
 }
 #artitalk_main div.shuoshuo_time {
 	padding-top: 5px;
