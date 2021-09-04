@@ -106,6 +106,10 @@ div#artitalk_main {
 	border-radius:0px 0px 10px 10px;
 	color: white!important;
     font-weight: 600;
+	display: flex;
+}
+#artitalk_main div.shuoshuo_time>div:first-child {
+	flex: 1 1 auto;
 }
 #artitalk_main .shuoshuo_author_img img {
     border: 1px solid #ddd;
